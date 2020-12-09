@@ -1,4 +1,4 @@
-name: micasense
+name: sequoia_new
 channels:
   - conda-forge
 dependencies:
@@ -12,11 +12,22 @@ dependencies:
   - scikit-image
   - pytest
   - git
+  - git-lfs
   - pandas
+  - geopandas
   - imageio
   - ipywidgets
   - nb_conda
+  - requests
+  - packaging
+  - pip
+  - pytest-xdist
+  - rasterio
   - pip:
     - pyzbar
     - mapboxgl
     - git+https://github.com/smarnach/pyexiftool.git#egg=pyexiftoolpy
+    - gpsphoto
+    - jenkspy
+    - rawpy
+
